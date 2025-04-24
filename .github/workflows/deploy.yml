@@ -18,7 +18,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          role-to-assume: arn:aws:iam::779846795588:role/automate-todo
+          role-to-assume: arn:aws:iam::779846795588:role/automation-todo
           role-session-name: github-actions
           aws-region: ap-southeast-1
 

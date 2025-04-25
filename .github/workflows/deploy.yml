@@ -39,5 +39,5 @@ jobs:
         run: |
           aws ecs update-service \
             --cluster todo \
-            --service todo-api-service-4d7aodv0 \
+            --service todo-api-service-v2dz9gsn \
             --force-new-deployment
